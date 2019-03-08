@@ -1,22 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>首頁</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/all.css">
 </head>
+
 <body>
 	<div class="wrap">
-		<div class="header">
-			<a href="index.html">首頁</a>
-			<a href="course.html">課程</a>
-			<a href="faq.html">問答</a>
+		<div class="banner">
+			<img src="img/banner_photo.png" alt="banner background">
+			<div class="header">
+				<h1><a href="#" class="logo" title="六角學院">六角學院</a></h1>
+				<ul>
+					<li><a class="active-page" href="index.html">首頁</a></li>
+					<li><a href="course.html">課程</a></li>
+					<li><a href="faq.html">問答</a></li>
+				</ul>
+			</div>
+			<div class="slogon">
+				<div class="mb60">
+					<h2 class="mb24">歡迎來到<span>六角學院</span></h2>
+					<h2>帶你一起攻略前端設計</h2>
+				</div>
+				<a href="" class="action-button"><span>馬上去註冊</span> <img src="img/arrow.png" alt="arrow"></a>
+			</div>
 		</div>
 		<div class="content">
-			首頁內容
+			<div class="course">
+				<div class="bar">
+					<h2 class="pull-left green">精選課程 <span class="subheader">幫助你拿到前端工程師的門票</span></h2>
+					<a href="#" class="pull-right">更多課程</a>
+				</div>
+				<ul>
+					<li>
+						<img src="img/Html.png" alt="">
+						<h3>Html 5 基礎教學</h3>
+						<p>主流前端網站設計的基礎，透過實際的範例，嘹解正確的網站開發流程</p>
+					</li>
+					<li>
+						<img src="img/RWD.png" alt="">
+						<h3>響應式網站設計</h3>
+						<p>六角學院提供業界響應式開發方法，讓學生瞭解完善的行動版開發觀念。</p>
+					</li>
+					<li>
+						<img src="img/jQuery.png" alt="">
+						<h3>jQuery 實戰教學</h3>
+						<p>分為四大主題：變數的使用、操作DOM、基本數學運算和套件運用。</p>
+					</li>
+				</ul>
+			</div>
+			<section class="difference">
+				<h2 class="green">課程比較 <span class="subheader">線上課程與實體課程的差異</span></h2>
+				<table class="text-center">
+					<tr>
+						<th scope="col">項目</th>
+						<th  scope="col">六角學院 線上課程</th>
+						<th  scope="col">一般線上課程</th>
+						<th  scope="col">一般實體課程</th>
+					</tr>
+					<tr>
+						<th scope="row">費用</th>
+						<td class="green">較低</td>
+						<td class="green">較低</td>
+						<td>較高</td>
+					</tr>
+					<tr>
+						<th scope="row">學習效果</th>
+						<td>一般</td>
+						<td>較低</td>
+						<td class="green">很好</td>
+					</tr>
+					<tr>
+						<th scope="row">Code review</th>
+						<td class="green">有</td>
+						<td>無</td>
+						<td>不一定</td>
+					</tr>
+					<tr>
+						<th scope="row">課程更新速度</th>
+						<td class="green">普通</td>
+						<td class="green">普通</td>
+						<td>較慢</td>
+					</tr>
+					<tr>
+						<th scope="row">多次複習</th>
+						<td class="green">可</td>
+						<td>可</td>
+						<td>不可</td>
+					</tr>
+					<tr>
+						<th scope="row">字幕</th>
+						<td class="green">有</td>
+						<td>不一定</td>
+						<td>板書</td>
+					</tr>
+				</table>
+			</section>
 		</div>
-		<div class="footer"></div>
+		<div class="call-action">
+			<div class="">
+				<h2>你就是六角的下一個學生</h2>
+				<h2>快留下資料讓我們認識你吧</h2>
+			</div>
+			<form action="index.html">
+				<input type="text" name="name" id="name" placeholder="你的名字是？">
+				<input type="text" name="mail" id="mail" placeholder="example@mail.com.tw">
+				<input type="submit" value="送出">
+			</form>
+		</div>
+		<div class="footer">
+			<div class="footer-logo pull-left center-vertical">
+				<div>
+					<img src="img/footer_logo.png" alt="footer logo">
+					<p>&copy 2018 hexschool</p>
+				</div>
+			</div>
+			<ul class="pull-right">
+				<li><a href="#"><img src="img/facebook_icon.png" alt=""></a></li>
+				<li><a href="#"><img src="img/twitter_icon.png" alt=""></a></li>
+				<li><a href="#"><img src="img/instagram_icon.png" alt=""></a></li>
+			</ul>
+		</div>
 	</div>
 </body>
+
 </html>
