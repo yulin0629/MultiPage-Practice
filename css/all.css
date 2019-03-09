@@ -1,3 +1,25 @@
+a {
+	color: #00CC99;
+	text-decoration: none;
+}
+
+a, button, input, textarea {
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.15s ease-in-out, border-color 0.1s ease-in-out;
+}
+
+input, textarea {
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(0, 204, 153, 0);
+}
+
+input:focus, textarea:focus {
+	outline: none;
+    box-shadow: 0 0 5px rgba(0, 204, 153, 1);
+    border-color: rgba(0, 204, 153, 1);
+}
+
 .clearfix:after {
     content: "";
     display: table;
@@ -34,15 +56,6 @@
 
 .mb60 {
 	margin-bottom: 60px;
-}
-
-a {
-	color: #00CC99;
-	text-decoration: none;
-}
-
-a, button, input, textarea {
-	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, box-shadow 0.1s ease-in-out, opacity 0.15s ease-in-out, border-color 0.1s ease-in-out;
 }
 
 .button-primary {
@@ -288,10 +301,6 @@ ol li {
 	color: white;
 }
 
-.bar {
-	margin-bottom: 30px;
-}
-
 .slogon {
 	display: flex;
 	flex-direction: column;
@@ -370,13 +379,8 @@ ol li {
 	margin-left: 28px;
 }
 
-.difference h2 {
-	margin-bottom: 30px;
-}
-
 .difference table {
     width: 100%;
-    text-align: center;
 }
 
 .difference th[scope=col] {
@@ -443,7 +447,7 @@ ol li {
 	align-items: flex-end;
 }
 
-.call-action>*{
+.flex-grow {
 	flex: 1 1 0;
 }
 
@@ -461,19 +465,6 @@ ol li {
     width: 100%;
     padding: 16px 20px;
     
-}
-
-input, textarea {
-	border-radius: 5px;
-	border-style: solid;
-	border-width: 1px;
-	border-color: rgba(0, 204, 153, 0);
-}
-
-input:focus, textarea:focus {
-	outline: none;
-    box-shadow: 0 0 5px rgba(0, 204, 153, 1);
-    border-color: rgba(0, 204, 153, 1);
 }
 
 #question {
