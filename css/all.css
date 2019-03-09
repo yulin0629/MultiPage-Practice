@@ -16,6 +16,10 @@
 	float: right;
 }
 
+a {
+	color: #00CC99;
+	text-decoration: none;
+}
 .wrap {
 	width: 1024px;
 	margin: 0 auto;
@@ -88,19 +92,61 @@
 }
 
 .content {
-	padding-left: 32px;
-	padding-right: 32px;
+	margin-left: 32px;
+	margin-right: 32px;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background-color: white;
 }
 
 .content-course {
-	padding-left: 200px;
-	padding-right: 200px;
+	margin-left: 200px;
+	margin-right: 200px;
 	background: white;
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+.content-faq {
+	margin-left: 120px;
+	margin-right: 120px;
+	background: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.question {
+	font-size: 20px;
+	line-height: 30px;
+	color: #323232;
+}
+
+.answer {
+	font-size: 16px;
+	line-height: 24px;
+	color: #9b9b9b;
+}
+
+.answer li {
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-left: 30px;
+}
+
+.answer ul li {
+	list-style: disc;
+	list-style-position: inside;
+}
+
+.answer .dark {
+	color: #323228;
+}
+
+.question-list>li {
+	margin-bottom: 30px;
+}
+.question-list>li:last-child {
+	margin-bottom: 0;
 }
 
 .footer {
@@ -191,7 +237,6 @@
 .course .bar a {
 	text-decoration: none;
 	display: block;
-	color: #00CC99;
 	border: 2px solid #00cc99;
 	padding: 6px 14px;
 	border-radius: 5px;
@@ -221,13 +266,43 @@
 	padding-right: 40px;
 }
 
+.slogon-faq {
+	align-items: center;
+	margin: 0 auto;
+}
+
+.slogon-faq input[type=text] {
+	border-radius: 5px;
+	width: 620px;
+	font-size: 22px;
+	padding-right: 40px;
+	padding-left: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.search {
+	width: 100%;
+	position: relative
+}
+
+.search-button {
+	position: absolute;
+	right: 12px;
+	top: 50%;
+	transform: translate(0, -50%);
+	cursor: pointer;
+	background: white;
+	border: none;
+}
+
 .slogon h2 {
 	color: #00CC99;
 	font-size: 48px;
 }
 
 .slogon h3 {
-	font-size: 22px;
+	font-size: 24px;
 }
 
 .mb8 {
@@ -348,6 +423,7 @@
 	padding-right: 45px;
 	padding-left: 45px;
 	min-height: 396px;
+	padding-bottom: 60px;
 }
 
 .call-action-course {
@@ -376,14 +452,23 @@
 	align-items: stretch;
 }
 
-.call-action form input[type=text] {
+.call-action form input[type=text], .call-action form textarea {
 	font-size: 20px;
 	display: block;
     margin-bottom: 20px;
     width: 100%;
     padding: 16px 20px;
     border-radius: 3px;
-    border-style: none;
+	border-style: none;
+}
+
+#question {
+	height: 202px;
+	resize: none;
+}
+
+.call-action ::placeholder {
+	color: #9b9b9b;
 }
 
 .call-action form input[type=submit] {
@@ -393,7 +478,8 @@
     padding: 16px 40px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+	font-size: 16px;
+	align-self: flex-end;
 }
 
 .call-action div {
