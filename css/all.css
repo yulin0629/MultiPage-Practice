@@ -60,7 +60,7 @@ a {
 	object-fit: none;
 }
 
-.header>h1>a {
+.site-logo {
 	background-image: url(../img/header_logo.png);
 	display: block;
 	height: 36px;
@@ -69,19 +69,19 @@ a {
 	overflow: hidden;
 	white-space: nowrap;
 }
-.header>h1 {
+
+.header>*:first-child {
 	float: left;
 	margin-left: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
-.header>ul {
-	float: right;
+.header>*:last-child {
 	margin-right: 20px;
 }
 
-.header>ul>li {
+.header-navigation>li {
 	float: left;
 	color: white;
 	margin-right: 20px;
