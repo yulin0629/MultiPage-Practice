@@ -20,6 +20,18 @@ a {
 	color: #00CC99;
 	text-decoration: none;
 }
+
+.button-primary {
+	background-color: #00CC99;
+	border-radius: 5px;
+	padding: 18px 40px;
+	color: white;
+}
+
+.button-primary:hover {
+	background-color: #00dba4;
+}
+
 .wrap {
 	width: 1024px;
 	margin: 0 auto;
@@ -346,17 +358,11 @@ a {
 	justify-content: space-between;
 	align-items: center;
 	display: flex;
-	color: white;
 	font-size: 20px;
-	background-color: #00CC99;
-	text-decoration: none;
-	padding: 18px 40px;
-	border-radius: 5px;
 }
 
-.action-button span {
-	display: block;
-	margin-right: 28px;
+.action-button img {
+	margin-left: 28px;
 }
 
 .course {
@@ -472,11 +478,7 @@ a {
 }
 
 .call-action form input[type=submit] {
-	color: white;
-    background-color: #00cc99;
     border-style: none;
-    padding: 16px 40px;
-    border-radius: 5px;
     cursor: pointer;
 	font-size: 16px;
 	align-self: flex-end;
@@ -500,9 +502,6 @@ a {
 
 .call-action-course .action-desc {
 	margin-right: 60px;
-}
-.call-action .action-button {
-	display: inline-flex;
 }
 
 .teacher {
