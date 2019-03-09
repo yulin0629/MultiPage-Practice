@@ -138,17 +138,19 @@ a {
 }
 
 .answer li {
-	list-style-type: decimal;
 	list-style-position: inside;
 	margin-left: 30px;
 }
 
-.answer ul li {
-	list-style: disc;
-	list-style-position: inside;
+ol li {
+	list-style-type: decimal;
 }
 
-.answer .dark {
+.answer ul li {
+	list-style: disc;
+}
+
+.dark {
 	color: #323228;
 }
 
@@ -170,7 +172,7 @@ a {
 	float: left;
 	margin-bottom: 8px;
 }
-.footer p {
+.footer-logo p {
 	float: right;
 	clear: both;
 }
@@ -187,21 +189,21 @@ a {
 	width: 174px;
 }
 
-.footer-logo>div::after {
-	content: " ";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
-}
-
-.footer ul {
+.social-footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	width: 140px;
 	height: 100%;
 	margin-right: 40px;
+}
+
+.social-footer a {
+	opacity: 0.6;
+}
+
+.social-footer a:hover {
+	opacity: 1.0;
 }
 .course ul {
 	display: flex;
