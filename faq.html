@@ -37,7 +37,7 @@
                 </div>
                 <form action="faq.html" method="get">
                     <div class="search-bar">
-                        <input class="search-term" type="text" name="question" title="搜尋">
+                        <input class="search-term" type="search" name="question" title="搜尋">
                         <button type="submit" class="search-button">
                             <img src="img/search_icon.png" alt="search icon">
                         </button>
@@ -133,9 +133,9 @@
                 <h2>直接寄信給我們解決吧！</h2>
             </div>
             <form class="flex-grow" action="index.html">
-                <input type="text" name="name" id="name" placeholder="你的名字是？">
-                <input type="text" name="mail" id="mail" placeholder="example@mail.com.tw">
-                <textarea name="question" id="question" placeholder="你遇到什麼困難呢？"></textarea>
+                <input type="text" name="name" id="name" placeholder="你的名字是？" required>
+                <input type="email" name="mail" id="mail" placeholder="example@mail.com.tw" required>
+                <textarea name="question" id="question" placeholder="你遇到什麼困難呢？" required></textarea>
                 <input type="submit" class="button-primary" value="送出">
             </form>
         </div>

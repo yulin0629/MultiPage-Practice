@@ -316,10 +316,10 @@ ol li {
 	text-align: center;
 }
 
-.slogon-faq input[type=text] {
+.search-term {
 	width: 620px;
 	font-size: 22px;
-	padding-right: 40px;
+	padding-right: 60px;
 	padding-left: 12px;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -458,7 +458,7 @@ ol li {
 	align-items: stretch;
 }
 
-.call-action form input[type=text], .call-action form textarea {
+.call-action input[type=text], .call-action input[type=email], .call-action textarea {
 	font-size: 20px;
 	display: block;
     margin-bottom: 20px;
