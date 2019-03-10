@@ -198,7 +198,7 @@ ol li {
 	margin-bottom: 0;
 }
 
-.footer {
+#footer {
 	height: 132px;
 	background: #323228;
 	color: #9b9b9b;
@@ -344,7 +344,8 @@ ol li {
 .slogon h2 {
 	color: #00CC99;
 	font-size: 48px;
-	line-height: 60px;
+	line-height: 80px;
+	
 }
 
 .slogon h3 {
@@ -482,20 +483,17 @@ ol li {
 	align-self: flex-end;
 }
 
-.call-action>div {
-	padding-top: 20px;
-}
-
 .call-action h2 {
 	margin-bottom: 30px;
 	font-size: 30px;
+	line-height: 60px;
 }
 
 
 .call-action-course h2 {
 	margin-top: 15px;
 	font-size: 30px;
-	line-height: 45px;
+	line-height: 60px;
 }
 
 .call-action-course .action-desc {
