@@ -323,6 +323,7 @@ ol li {
 	padding-left: 12px;
 	padding-top: 12px;
 	padding-bottom: 12px;
+	-webkit-appearance: textfield;
 }
 
 .search-bar {
